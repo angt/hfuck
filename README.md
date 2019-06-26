@@ -11,4 +11,6 @@ hhhhh hh hhhhh hhhh hhhh hhhh hhhh hhh hhhhh hhhh \
 h hhhhh hh hh hh hh hh hhhhh hh hhhhh hhhh hhhh   \
 hhhhh hhhh hhh hhhhh
 hello world
+$ ./wc.hf < hf.c
+        29      130     758
 ```
