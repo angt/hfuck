@@ -1,4 +1,3 @@
-#include <stdint.h>
 #include <unistd.h>
 
 static
@@ -11,7 +10,7 @@ int c(const char *v)
 
 int main(int n, char **v)
 {
-    static uint8_t x[1 << 16], *p = x;
+    static unsigned char x[1 << 16], *p = x;
     for (int i = 1; i < n; i++) {
         int l = 1;
         switch (c(v[i])) {
