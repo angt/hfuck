@@ -20,7 +20,7 @@ int main(int n, char **v)
             case 3: (*p)--; break;
             case 4:    p--; break;
             case 5: write(1, p, 1); break;
-            case 6:  read(1, p, 1); break;
+            case 6:  read(0, p, 1); break;
             case 7: if (!*p) while (l) { i++; l -= (c(v[i]) == 8) - (c(v[i]) == 7); }; break;
             case 8: if ( *p) while (l) { i--; l += (c(v[i]) == 8) - (c(v[i]) == 7); }; break;
             default: return 1;
